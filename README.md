@@ -52,7 +52,7 @@ bash block.sh
 
 To download and run 
 
-curl -Lo install.sh https://raw.githubusercontent.com/crombiecrunch/yiimp_install_scrypt/master/install.sh
+curl -Lo install.sh https://raw.githubusercontent.com/oddhome/yiimp_install_scrypt/master/install.sh
 
 bash install.sh
 
