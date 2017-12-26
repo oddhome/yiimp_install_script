@@ -708,6 +708,8 @@ define('"'"'EXCH_YOBIT_SECRET'"'"', '"'"''"'"');
      sudo mysql --defaults-group-suffix=host1 --force < 2017-05-accounts_case_swaptime.sql
      sudo mysql --defaults-group-suffix=host1 --force < 2017-06-payouts_coinid_memo.sql
      sudo mysql --defaults-group-suffix=host1 --force < 2017-09-notifications.sql
+     sudo mysql --defaults-group-suffix=host1 --force < 2017-10-bookmarks.sql
+     sudo mysql --defaults-group-suffix=host1 --force < 2017-11-segwit.sql
      
     clear
     output "Generating a basic serverconfig.php"
