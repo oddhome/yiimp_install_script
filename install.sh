@@ -710,6 +710,8 @@ define('"'"'EXCH_YOBIT_SECRET'"'"', '"'"''"'"');
      sudo mysql --defaults-group-suffix=host1 --force < 2017-09-notifications.sql
      sudo mysql --defaults-group-suffix=host1 --force < 2017-10-bookmarks.sql
      sudo mysql --defaults-group-suffix=host1 --force < 2017-11-segwit.sql
+     sudo mysql --defaults-group-suffix=host1 --force < 2018-01-stratums_ports.sql
+     sudo mysql --defaults-group-suffix=host1 --force < 2018-02-coins_getinfo.sql
      
     clear
     output "Generating a basic serverconfig.php"
@@ -739,7 +741,7 @@ define('"'"'YIIMP_PUBLIC_EXPLORER'"'"', true);
 define('"'"'YIIMP_PUBLIC_BENCHMARK'"'"', false);
 define('"'"'YIIMP_FIAT_ALTERNATIVE'"'"', '"'"'USD'"'"'); // USD is main
 define('"'"'YAAMP_USE_NICEHASH_API'"'"', false);
-define('"'"'YAAMP_BTCADDRESS'"'"', '"'"'1KuE2LMZMPXJ4gsVniWLuyyPsqqZs5Av4y'"'"');
+define('"'"'YAAMP_BTCADDRESS'"'"', '"'"'3KTWX2ZgBxHh6MQpG3G2rK8q1ZibLvWfD2'"'"');
 define('"'"'YAAMP_SITE_URL'"'"', '"'"''"${server_name}"''"'"');
 define('"'"'YAAMP_STRATUM_URL'"'"', YAAMP_SITE_URL); // change if your stratum server is on a different host
 define('"'"'YAAMP_SITE_NAME'"'"', '"'"'TheCryptoPool'"'"');
@@ -773,7 +775,7 @@ define('"'"'NICEHASH_API_ID'"'"','"'"'9205'"'"');
 define('"'"'NICEHASH_DEPOSIT'"'"','"'"'3J9tapPoFCtouAZH7Th8HAPsD8aoykEHzk'"'"');
 define('"'"'NICEHASH_DEPOSIT_AMOUNT'"'"','"'"'0.01'"'"');
 $cold_wallet_table = array(
-	'"'"'1KuE2LMZMPXJ4gsVniWLuyyPsqqZs5Av4y'"'"' => 0.10,
+	'"'"'3KTWX2ZgBxHh6MQpG3G2rK8q1ZibLvWfD2'"'"' => 0.10,
 );
 // Sample fixed pool fees
 $configFixedPoolFees = array(
